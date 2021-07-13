@@ -212,6 +212,7 @@ function calculate() {
 
   var milhours = hrs
   var milmins = min
+  document.getElementById('decimalhour').innerHTML = "It has been " + decimalhour + " hours on miller since then (in decimal hours)."
   document.getElementById('final').innerHTML = "Finally - the time from Interstellar releasing to today, on miller's planet is<br> " + milhours + " hours and " + milmins + " minutes."
 }
 function calculater() {
@@ -224,6 +225,7 @@ function calculater() {
 
   var milhours = hrs
   var milmins = min
+  document.getElementById('decimalhour').innerHTML = "It has been " + decimalhour + " hours on miller since then (in decimal hours)."
   document.getElementById('final').innerHTML = "Finally - the time from Interstellar releasing to today, on miller's planet is<br> " + milhours + " hours and " + milmins + " minutes."
 }
 
@@ -231,7 +233,5 @@ function calculater() {
 
 document.getElementById('datetext').innerHTML = ("Interstellar was released on the 7th of November 2014. It is now the " + fulldate);
 document.getElementById('daysbetween').innerHTML = "It has been " + (datediffday(parseDate(first), parseDate(second))) + " Earth days and " + (datediffhour(parseDate(first), parseDate(second))) + " Earth hours since then.";
-document.getElementById('decimalhour').innerHTML = "It has been " + decimalhour + " hours on miller since then (in decimal hours)."
 if (!milhours || isNaN(milhours) || !milmins || isNaN(milmins)) { document.getElementById('final').innerHTML = "Finally - the time from Interstellar releasing to today, on miller's planet is<br> " + "?" + " hours and " + "?" + " minutes." }
-// $('<input type="button" value="Calculate answer" onclick="calculater()" input>').appendTo($('#finals'));
 $('<input type="button" value="Decimal answer" onclick="calculate()" input>').appendTo($('#finals'));
