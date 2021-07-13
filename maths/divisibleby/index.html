@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Divisible by</title>
+		<link rel="stylesheet" href="../css/bootstrap.css" />
+		<link rel="stylesheet" href="../css/main.css" />
+		<link rel="icon" type="image/png" href="../favicon.png" />
+	</head>
+	<body>
+		<br />
+		<script src="./index.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<h1 style="text-align: center">Divisible by Calculator</h1>
+		<br /><br />
+		<div class="container" id="content">
+			<div class="row justify-content-center">
+				<div class="col-auto text-center">
+					<form>
+						<input id="whadivbi" type="text" placeholder="Divisible by?" />
+						<input id="thenumbers" type="text" placeholder="Your numbers." />
+						<input
+							type="button"
+							onclick="divisibleby()"
+							value="Calculate"
+							id="startbutton"
+							style="background-color: #fff"
+						/>
+					</form>
+				</div>
+			</div>
+		</div>
+		<p id="output"></p>
+		<hr />
+		<div class="container" id="info">
+			<div class="row justify-content-center">
+				<h5>Help</h5>
+				<p>
+          This calculator tells you if a number or group of numbers can be divided by something and not have a decimal.<br>
+					In the first box, insert what you need your numbers to be divisible
+					by.<br />
+					Then in the second box, enter your number or numbers in the third box, <i>separated by a comma</i>.<br>
+          The numbers that are divisible by the number will appear.
+				
+        </p>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<span class="text-muted"
+					>Created by
+					<a href="https://dsc.bio/ciirof/">Chihiro Fujisaki#0449</a>
+					-
+					<a href="https://github.com/FriendlyUser1">Github</a></span
+				>
+			</div>
+		</footer>
+	</body>
+</html>

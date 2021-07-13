@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Iteration</title>
+		<link rel="stylesheet" href="../css/bootstrap.css" />
+		<link rel="stylesheet" href="../css/main.css" />
+		<link rel="icon" type="image/png" href="../favicon.png" />
+	</head>
+	<body>
+		<br />
+		<script src="./index.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<h1 style="text-align: center">Iteration calculator</h1>
+		<br /><br />
+		<div class="container" id="content">
+			<div class="row justify-content-center">
+				<div class="col-auto text-center">
+					<form>
+						<input id="x" type="text" placeholder="What is x?" />
+						<input
+							id="calc"
+							type="text"
+							placeholder="What is the calculation?"
+						/>
+						<input id="roundnum" type="text" placeholder="Decimal places?" />
+						<input
+							type="button"
+							onclick="iteration()"
+							value="Calculate"
+							id="startbutton"
+							style="background-color: #fff"
+						/>
+					</form>
+					<p id="output"></p>
+				</div>
+			</div>
+		</div>
+		<hr />
+		<div class="container" id="help">
+			<div class="row justify-content-center">
+				<h5>Help</h5>
+				<p>
+					Fill in the boxes and press calculate!<br />
+					Put the <i>x</i><sub>0</sub> in the first box, the calculation in the
+					second, and the decimal places you want to calculate to in the third.
+				</p>
+				<br />
+				<p>
+					For the calculation box, use JavaScript Math functions and x.
+
+					<a
+						href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math"
+						target="_blank"
+						>Help</a
+					>
+					<br />Example:<br />
+					<img src="./example.png" /> <br />
+					<br />
+					For this question, you would put <code>1</code> in the first box (what
+					<i>x</i><sub>0</sub> is), <code>Math.cbrt(2*x-3)</code> in the second,
+					and <code>3</code> in the third for decimal places.
+				</p>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<span class="text-muted"
+					>Created by
+					<a href="https://dsc.bio/ciirof/">Chihiro Fujisaki#0449</a>
+					-
+					<a href="https://github.com/FriendlyUser1">Github</a></span
+				>
+			</div>
+		</footer>
+	</body>
+</html>

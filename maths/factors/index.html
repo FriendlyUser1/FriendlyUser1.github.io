@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Factors</title>
+		<link rel="stylesheet" href="../css/bootstrap.css" />
+		<link rel="stylesheet" href="../css/main.css" />
+		<link rel="icon" type="image/png" href="../favicon.png" />
+	</head>
+	<body>
+		<br />
+		<script src="./index.js"></script>
+		<script src="../js/bootstrap.js"></script>
+		<h1 style="text-align: center">Factors calculator</h1>
+
+		<br /><br />
+
+		<div class="container" id="content">
+			<div class="row justify-content-center">
+				<div class="col-auto text-center">
+					<form onkeypress="return event.keyCode != 13">
+						<input id="thenum" type="text" placeholder="Your number" />
+						<input
+							type="button"
+							onclick="factors()"
+							value="Calculate"
+							id="startbutton"
+							style="background-color: #fff"
+						/>
+						<br />
+					</form>
+				</div>
+			</div>
+		</div>
+
+		<div class="container" id="outputb">
+			<div class="row justify-content-center">
+				<div class="col-auto text-center">
+					<p id="output">Enter a number</p>
+				</div>
+			</div>
+		</div>
+
+		<hr />
+
+		<div class="container" id="info">
+			<div class="row justify-content-center">
+        <h5>Help</h5>
+				<p>
+					<b><u>Warning:</u></b
+					>
+					<i>Very large numbers can slow down or crash your browser.</i>
+          <br />
+          In the box, enter the number you want to find the factors for, and press <code>Calculate</code>.
+        </p>
+			</div>
+		</div>
+
+		<footer class="footer">
+			<div class="container">
+				<span class="text-muted"
+					>Created by
+					<a href="https://dsc.bio/ciirof/">Chihiro Fujisaki#0449</a>
+					-
+					<a href="https://github.com/FriendlyUser1">Github</a></span
+				>
+			</div>
+		</footer>
+	</body>
+</html>
