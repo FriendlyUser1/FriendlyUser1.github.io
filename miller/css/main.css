@@ -50,3 +50,10 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+input {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  margin: auto;
+}

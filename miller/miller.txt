@@ -1,0 +1,8 @@
+1 hour miller = 61320 hours earth
+1 hour earth = 0.00001630789 hours miller
+
+13th july 2021- 7th november 2014 = 58560 hours earth
+
+58560 hours earth = 0.95499021526 hours miller 
+
+0.95499021526 decimal miller = 57.2994129156 minutes miller since interstellar released
